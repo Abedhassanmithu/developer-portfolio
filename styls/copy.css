@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+font-family:Arial, Helvetica, sans-serif ;
+}
+/* header and navigation styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+    
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.primary{
+    color: palevioletred;
+}
