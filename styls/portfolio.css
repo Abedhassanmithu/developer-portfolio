@@ -3,6 +3,14 @@ font-family: Arial, Helvetica, sans-serif;
 margin: 0;
 }
 /* nav avd header styles */
+.header{
+    background:#fff3f3fb;
+    background-image: url(../images/header_bg.png), url(../images/developer.png); 
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+   
+
+}
 .nav-title{
     font-weight: 800;
     font-size: 45px;
@@ -37,9 +45,10 @@ nav li{
 .abed{
     height: 550px;
     width: 450px;
+   
 }
 .banner{
-    margin: 0 100px;
+    margin: 0px 10px 0 100px;
     align-items: center;
     display: flex;
 }
@@ -56,4 +65,47 @@ nav li{
     color: #757575;
     font-size: 18px;
     margin-bottom:30px; 
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About section style */
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+/* About info style */
+.info-continer{
+    display: flex;
+    justify-content: space-around;
+   text-align: center;
+   margin-top: 10px;
+}
+.about-info{
+ 
+}
+.info-title{
+    font-size: 15px;
+    color: #757575;
+
+}
+.info-description{
+    font-size: 15px;
+  font-weight: 600;
+  color: #474747;
 }
