@@ -22,7 +22,7 @@ margin: 0;
 nav{
 display: flex;
 justify-content: space-between;
-margin: 50px 100px;
+padding: 50px 100px;
 }
 nav ul{
 display: flex;
@@ -192,6 +192,7 @@ input{
 }
 .contact a, img{
    text-decoration: none;
+
 }
 .description{
     margin-bottom: 20px;
